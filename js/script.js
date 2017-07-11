@@ -6,7 +6,7 @@ $(function  () {
 		//判断nav当前的位置，将箭头变为右箭头或左箭头。//
 		if($left=="0px")
 		{
-			$(".nav").animate({left:"-350px"},500);
+			$(".nav").animate({left:"-280px"},500);
 			$(".nav-arrow").removeClass("left-arrow");
 			$(".nav-arrow").addClass("right-arrow");
 		}
