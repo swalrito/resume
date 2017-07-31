@@ -161,12 +161,12 @@ function scroll()
 $(function ()
 {
 	$("#intro span").click(function(){
-		$("#reson").show(1000);
+		$("#exper").show(1000);
 		$("#intro span").remove();
 	});
-	$("#reson span").click(function(){
-		$("#exper").show(1000);
-		$("#reson span").remove();
+	$("#exper span").click(function(){
+		$("#reson").show(1000);
+		$("#exper span").remove();
 	});
 
 }

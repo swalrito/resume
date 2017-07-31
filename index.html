@@ -9,6 +9,7 @@
 
 </head>
 <body>
+<!--导航-->
 <div class="nav">
 	<div class="nav-photo">
 	</div>
@@ -22,6 +23,7 @@
 	</div>
 	<div class="nav-arrow left-arrow"></div>
 </div>
+<!--首页-->
 <div class="home scroll J-animate" id="home">
 <div class="content">
 	<h2>Hello World</h2>
@@ -29,8 +31,9 @@
 	<ul class="fl clearfloat">
 		<li><span>姓名</span> | 彭定林</li>
 		<li><span>手机</span> | 13327417875</li>
-		<li><span>所在地</span> | 太原</li>
+		<li><span>所在地</span> | 柳州</li>
 		<li><span>邮箱</span> | 1979945716@qq.com</li>
+		<li><span>工作经验</span> | 2年</li>
 		<li><span>github</span> | <a href=" https://github.com/swalrito">点击进入</a></li>
 	</ul>
 	<div class="fr">
@@ -43,7 +46,18 @@
 		<br>
 		我是一个克服了拖延症的人，能在规定时间内保证完成任务。
 		<br>
-		<span>read more</span></p>
+		<span>read more</span>
+		</p>
+
+		<p id="exper">
+			能够使用MVVM框架vue全家桶开发大型SPA项目。
+		    <br>
+			熟悉 HTML、CSS、Javascript，能熟练开发符合 W3C标准的页面，熟练使用 jQuery ，bootstrap。曾经开发过 jQuery 插件。
+			<br>
+			作为一个强迫症，我有着有良好的编码习惯。
+			<br>
+			<span>read more</span>
+		</p>
 
 		<p id="reson">
 		    <br>
@@ -55,13 +69,7 @@
 			<br>
 			我将在工作学习中不停地学习，像海绵一样，在有限的时间里汲取知识。不停地拓展自己。
 			<br>
-			<span>read more</span>
-		</p>
-		<p id="exper">
-		    <br>
-			熟悉 HTML、CSS、Javascript，能熟练开发符合 W3C标准的页面，熟练使用 jQuery ，bootstrap。曾经开发过 jQuery 插件。
-			<br>
-			作为一个强迫症，我有着有良好的编码习惯。
+			
 		</p>
 	</div>
 	</div>
@@ -70,6 +78,7 @@
 		<a href="#skills"></a>
 	</div>
 </div>
+<!--掌握技能-->
 <div class="skills J-animate" id="skills">
 	<div class="content">
 	<h1>技能列表</h1>
@@ -122,8 +131,6 @@
 				<div class="backinfo">
 				<p>
 					能够使用git来管理项目版本。并且拥有自己的gihub账号，经常在github上fork项目。
-					为了提高编写效率选择ST作为文本编辑器。
-					能够通过Chrome提供的开发者工具调试bug，查看代码，打印测试代码。
 					能够运用less对CSS进行预编译，提高大型项目的开发效率。
 					能够使用webpack进行项目打包。
 				</p>
@@ -132,6 +139,7 @@
 		</ul>
 	</div>
 </div>
+<!--工作经验-->
 <div class="experience J-animate" id="experience">
 	<div class="content">
 	<div class="experience-timeline"></div>
@@ -157,37 +165,58 @@
 		<div class="items items-left">
 			<h4>云购时代电子商务有限公司</h4>
 			<hr>
-			<span>2016年7月~2017年2月</span>
+			<span>2016年7月~2017年5月</span>
 		</div>
 		</div>
 	</div>
 </div>
+<!--项目展示-->
 <div class="projects J-animate" id="projects">
 	<div class="content">
 		<h1>项目经验</h1>
 		<div class="projeccts-info">
 		<ul class="projeccts-list clearfloat">
+		<li class="projeccts-list-items">
+				<div class="photo"><img src="images/happyfri.jpg"></div>
+				<p><a href="https://github.com/swalrito/vue-asnwering">快乐星期五</a></p>
+				<p>基于vue2.0全家桶的一个简单的SPA答题系统</p>
+			</li>
+			<li class="projeccts-list-items">
+				<div class="photo"><img src="images/douban.jpg"></div>
+				<p><a href="https://github.com/swalrito/vue2-douban_market">豆瓣集市</a></p>
+				<p>使用vue2.0全家桶开发的一个仿豆瓣集市APP的多页面SPA</p>
+			</li>
+			<li class="projeccts-list-items">
+				<div class="photo"><img src="images/pikaqiu.jpg"></div>
+				<p><a href="https://swalrito.github.io/css_pikaqiu/">皮卡丘</a></p>
+				<p>纯用CSS绘出一个皮卡丘的脸，不使用任何图片</p>
+			</li>
+			<li class="projeccts-list-items">
+				<div class="photo"><img src="images/鼠标悬浮模糊效果.png"></div>
+				<p><a href="https://swalrito.github.io/hover-blur/">鼠标悬浮效果</a></p>
+				<p>重点运用了css3的特性实现渐变背景以及滤镜模糊效果，实现走马灯效果。</p>
+			</li>
+			<li class="projeccts-list-items">
+				<div class="photo"><img src="images/房屋查看.png"></div>
+				<p><a href="https://swalrito.github.io/house/">租房预览</a></p>
+				<p>算是js的综合运用，通过点击住房平面图的特定部位，可以获取以该位置视角的住房照片，方便租客查看房子效果。</p>
+			</li>
+			<li class="projeccts-list-items">
+				<div class="photo"><img src="images/todolist.jpg"></div>
+				<p><a href="https://github.com/swalrito/todolist">todolist</a></p>
+				<p>vue2.0写的一个todolist</p>
+			</li>
 			<li class="projeccts-list-items">
 				<div class="photo"><img src="images/IFE2017.png"></div>
-				<p><a href="">百度2017ife</a></p>
+				<p><a href="https://github.com/swalrito/IFC2017">百度2017ife</a></p>
 				<p>2017IFE前端技术学院春季班题目，报名成功并把三大学院的题目写了一遍，温习基础。
 				<br>
 				题目包括了html、css、js，以及各类综合项目。
 				</p>
 			</li>
 			<li class="projeccts-list-items">
-				<div class="photo"><img src="images/鼠标悬浮模糊效果.png"></div>
-				<p><a href="">鼠标悬浮效果</a></p>
-				<p>重点运用了css3的特性实现渐变背景以及滤镜模糊效果，实现走马灯效果。</p>
-			</li>
-			<li class="projeccts-list-items">
-				<div class="photo"><img src="images/房屋查看.png"></div>
-				<p><a href="">租房预览</a></p>
-				<p>算是js的综合运用，通过点击住房平面图的特定部位，可以获取以该位置视角的住房照片，方便租客查看房子效果。</p>
-			</li>
-			<li class="projeccts-list-items">
 				<div class="photo"><img src="images/轮播图.jpg"></div>
-				<p><a href="">自动播放banner</a></p>
+				<p><a href="https://swalrito.github.io/autobanner/">自动播放banner</a></p>
 				<p>一个能够自动播放的banner，并且实现无缝滚动，无限滚动等特效。</p>
 			</li>
 		</ul>
